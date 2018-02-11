@@ -14,7 +14,7 @@ public class SimpleSeleniumTest {
 	public static void main(String[] args) {
 		System.setProperty("webdriver.chrome.driver", "/Applications/chromedriver");
 		WebDriver driver = new ChromeDriver();
-		driver.get("http://saucelabs.github.io/training-test-page/");
+		driver.get("https://htmlpreview.github.io/?https://github.com/somasudha/sudha-selenium/blob/master/testpage/index.html");
 		System.out.println(driver.getTitle());
 		driver.quit();
 	}
